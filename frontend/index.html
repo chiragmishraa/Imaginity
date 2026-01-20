@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagine3D</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        overflow: hidden;
+      }
+      #ui {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 12px;
+        border-radius: 10px;
+        color: white;
+        z-index: 10;
+        width: 320px;
+      }
+      input {
+        width: 94%;
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+      }
+      button {
+        margin-top: 10px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      #status {
+        margin-top: 8px;
+        font-size: 14px;
+        opacity: 0.9;
+      }
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ui">
+      <input id="prompt" placeholder="Type: dog, car, wolf..." />
+      <button id="btn">Generate Model</button>
+      <button id="toggleStars">Stars: ON</button>
+      <div id="status">Ready.</div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
