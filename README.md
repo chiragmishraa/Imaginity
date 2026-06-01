@@ -114,7 +114,7 @@ Imaginity/
 
 ## ⚠️ Current Status
 
-This project is actively under development (~70% complete). Some features are still being built:
+This project is actively under development. Some features are still being built:
 
 - [ ] AI-powered model generation
 - [ ] Expanded model variety & better search ranking
